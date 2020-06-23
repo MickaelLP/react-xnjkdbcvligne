@@ -4,7 +4,8 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <div> // JSX : C'est du code html dans du code react. 
+    // JSX : C'est du code html dans du code react.
+    <div>
       <p>Bonjour</p>
     </div>
   )
