@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Nav from './Nav';
 import './style.css';
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
+        <Nav name={this.state.name} />
         <p>
           Commence par modifier pour voir la magie apparaître :) 
         </p>
