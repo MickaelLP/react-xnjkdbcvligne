@@ -1,9 +1,11 @@
 import React from 'react';
+// import Navigation from './components/Navigation.js';
 
 const Accueil = () => {
   return (
-    <h1>Page d'accueil</h1>
+    // <Navigation />
+    allo
   );
-}
+};
 
 export default Accueil;

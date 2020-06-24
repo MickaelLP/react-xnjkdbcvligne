@@ -8,7 +8,7 @@ import Portefolio from './pages/Portefolio.js';
 
 // Exemple de fonction félchée
 
-const Nav = () => {
+const App = () => {
   return (
     // JSX : C'est du code html dans du code react.
     // Toute l'application va être contenu dans le browserRouter. C'est quoi exactement ? Il sert à la nagigation. 
@@ -34,5 +34,5 @@ const Nav = () => {
   );
 } 
 
-export default Nav;
-// export default ({ name }) => <h1>Hello {name}!</h1>; // Ligne du début. 
+export default App;
+export default ({ name }) => <h1>Hello {name}!</h1>; // Ligne du début. 
