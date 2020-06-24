@@ -1,8 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation.js';
 
 const Portefolio = () => {
   return (
-    <h1>Bienvenue dans mon portefolio</h1>
+    <>
+      <Navigation />
+      <h1>Bienvenue dans mon portefolio</h1>
+    </>
   );
 }
 

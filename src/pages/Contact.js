@@ -1,8 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation.js';
 
 const Contact = () => {
   return (
-    <h1>Page de contact</h1>
+    <>
+      <Navigation />
+      <h1>Page de contact</h1>
+    </>
   );
 }
 

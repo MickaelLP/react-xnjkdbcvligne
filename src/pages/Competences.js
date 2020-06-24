@@ -1,8 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation.js';
 
 const Competences = () => {
   return (
-    <h1>Page de compétences</h1>
+    <>
+      <Navigation />
+      <h1>Page de compétences</h1>
+    </>
   );
 }
 

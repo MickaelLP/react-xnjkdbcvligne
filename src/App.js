@@ -35,4 +35,4 @@ const App = () => {
 } 
 
 export default App;
-export default ({ name }) => <h1>Hello {name}!</h1>; // Ligne du début. 
+//export default ({ name }) => <h1>Hello {name}!</h1>; // Ligne du début. 
