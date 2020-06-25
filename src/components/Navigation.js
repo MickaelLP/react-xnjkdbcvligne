@@ -1,6 +1,7 @@
 // Fichier react pour le menu de navigation du WebCV.
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import img from '../../media.jpg';
 
 const Navigation = () => {
   return(
@@ -9,7 +10,7 @@ const Navigation = () => {
       <div className="id">
 
         <div className="idContent">
-          <img src="./media/img.jpg" alt="Photo de profil"/>
+          <img src="https://wallpapercave.com/wp/wp2377581.jpg" alt="Photo de profil" height="200"/>
           <h3>Mickael Joly</h3>
         </div>
 
