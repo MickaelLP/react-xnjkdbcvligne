@@ -14,7 +14,7 @@ $white:#fff;
 
 $borderRadius:10px; 
 $shadow: 0 1px 3px #333 ; 
-$min-height: 95vh;
+$minHeight: 95vh;
 
 @mixin verticalCenter {
   display: flex;
@@ -41,4 +41,30 @@ button {
 
 li {
   list-style-type: none;   
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  cursor:pointer;
+}
+
+a:visited {
+  color: $black;
+}
+
+.accueil, .competences, .portefolio, .contact {
+  display:flex;  
+
+  @media screen and (max-width: 850px){
+    display:block !important;
+  }
+}
+
+.accueilContenu, .competencesContenu, .portefolioContenu, .contactContenu {
+  margin-left: .4rem; // C'est quoi les rem ? 
+
+  @media screen and (max-width:850) {
+    margin-left: 0 !important;
+  }
 }

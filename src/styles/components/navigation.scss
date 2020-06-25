@@ -1,0 +1,10 @@
+.sidebar {
+  background-color: $color-1;
+  font-family: $font-1;
+  height:100%;
+  min-height: $minHeight;
+  min-width: 264px;
+  border-radius: $borderRadius;
+  position:relative;
+  display:grid; // Répartion à l'interieur de la sidebar. Ca fait quoi exactement ? 
+}
