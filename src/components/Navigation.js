@@ -14,6 +14,8 @@ const Navigation = () => {
           <h3>Mickael Joly</h3>
         </div>
 
+      </div>
+
         <div className="navigation">
           <ul>
             <li>
@@ -45,8 +47,6 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-
-      </div>
 
     </div>
   );
