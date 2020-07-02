@@ -5,7 +5,7 @@ const Connaissances = () => {
   return (
     <>
       <Navigation />
-      <h1>Page de compétences</h1>
+      <h1>Page de connaissances</h1>
     </>
   );
 }
