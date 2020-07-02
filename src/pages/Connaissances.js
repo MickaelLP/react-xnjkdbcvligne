@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation.js';
 
-const Competences = () => {
+const Connaissances = () => {
   return (
     <>
       <Navigation />
@@ -10,4 +10,4 @@ const Competences = () => {
   );
 }
 
-export default Competences;
+export default Connaissances;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Accueil from './pages/Accueil.js';
-import Competences from './pages/Competences.js';
+import Competences from './pages/Connaissances.js';
 import Contact from './pages/Contact.js';
 import Erreur404 from './pages/Erreur404.js';
 import Portefolio from './pages/Portefolio.js';

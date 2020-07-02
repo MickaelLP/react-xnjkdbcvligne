@@ -26,7 +26,7 @@ const Navigation = () => {
             </li>
 
             <li>
-              <NavLink to="/Competences" activeClassName="navActive"> {/*  en react les classes se nomment className. */}
+              <NavLink to="/Connaissances" activeClassName="navActive"> {/*  en react les classes se nomment className. */}
               <i className="fas fa-mountain"></i>
               <span>Compétences</span>
               </NavLink>
