@@ -1,9 +1,9 @@
 import React from 'react';
 import Navigation from '../components/Navigation.js';
 import Langages from '../connaissances/Langages';
-import Loisirs from '../connaissances/Loisirs';
-import Experiences from '../connaissances/Experiences';
-import autresCompetences from '../connaissances/autresCompetences';
+import loisirs from '../connaissances/Loisirs';
+import experiences from '../connaissances/Experiences';
+import autresCompetences from '../connaissances/AutresCompetences';
 
 const Connaissances = () => {
   return (
