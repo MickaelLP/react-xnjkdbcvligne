@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// function est abrégé par "=>";
 const Experiences = () => {
   return (
     <div>
