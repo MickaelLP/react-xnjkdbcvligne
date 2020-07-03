@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProgressBar from './ProgressBar';
 
 class Langages extends Component{
 
