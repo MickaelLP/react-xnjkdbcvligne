@@ -24,15 +24,14 @@ class Langages extends Component{
     ]
   }
 
-
-
   render () {
 
     let {languages,frameworks} = this.state;
 
     return (
       <div className="languagesFrameworks">
-
+        <ProgressBar />
+        <ProgressBar />
       </div>
     );
   }
