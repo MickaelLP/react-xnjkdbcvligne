@@ -31,8 +31,16 @@ class Langages extends Component{
 
     return (
       <div className="languagesFrameworks">
-        <ProgressBar />
-        <ProgressBar />
+        <ProgressBar 
+          languages={languages}
+          className="languagesDisplay"
+          title="Langages"
+        />
+        <ProgressBar 
+          languages={frameworks}
+          title="Frameworks & bibliothèques"
+          className="frameworksDisplay"
+        />
       </div>
     );
   }
