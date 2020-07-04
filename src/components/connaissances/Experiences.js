@@ -4,7 +4,7 @@ import React from 'react';
 // function est abrégé par "=>";
 const Experiences = () => {
   return (
-    <div className="experiences">
+    <div className="experience">
 
       <h3>Mes expériences</h3>
 

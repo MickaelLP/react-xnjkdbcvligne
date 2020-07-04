@@ -7,15 +7,19 @@ import AutresCompetences from '../components/connaissances/AutresCompetences';
 
 const Connaissances = () => {
   return (
-    <div classNames="knowledges">
+    <div className="knowledges">
+
       <Navigation />
-        <div classNames="knowledgesContent">
+
+      <h1>Page de connaissances</h1>
+
+        <div className="knowledgesContent">
           <Langages />
           <AutresCompetences />
           <Experiences />
           <Loisirs />
         </div>
-      <h1>Page de connaissances</h1>
+      
     </div>
   );
 }
