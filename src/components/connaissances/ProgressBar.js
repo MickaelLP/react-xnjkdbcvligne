@@ -13,7 +13,7 @@ const ProgressBar = (props) => {
 
       </div>
 
-      <div className="years">
+      <div>
         {/* Les crochets dans du JSX veut dire qu'on va coder du javascript  */}   
         {
           /* À quoi sert map ?. le nom "items" peut être changé */

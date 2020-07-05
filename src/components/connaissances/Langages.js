@@ -8,7 +8,7 @@ class Langages extends Component{
     // Création d'un tableau langages et frameworks. 
 
     languages: [
-      {id: 1, value:"javascript", xp:1.8},
+      {id: 1, value:"javascript", xp:2},
       {id: 2, value:"Css", xp:1.8},
       {id: 3, value:"Php", xp:1.8},
       {id: 4, value:"Python", xp:1.8},
